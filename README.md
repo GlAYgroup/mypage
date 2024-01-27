@@ -1,4 +1,4 @@
-# 自分自身を紹介するホームページ（https://glaygroup.github.io/mypage/）を作成した。
+# 自分自身を紹介するホームページ（https://glaygroup.github.io/mypage/ ）を作成した。
 
 
 TITLE: 
