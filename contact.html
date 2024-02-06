@@ -97,22 +97,22 @@
 
 				<iframe width="1000" height="600" src="https://www.youtube.com/embed/gPW5ZeQv0Yo?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-				<h4>概要：</h4> <p><font size="4"> </font></p>
+				<h3>概要：</h3> <p><font size="4"> </font></p>
 				<p><font size="4">
-				学部の卒業研究にて、ピアニストの演奏を仮想空間でリアルタイムに高精度で再現するためのAIシステムを開発した。
-				このシステムでは、手のモーションキャプチャカメラを使用してリアルタイムでハンドモデルを生成する。
+				岐阜大学在籍時に、<a href="http://www.kzm.info.gifu-u.ac.jp/" target="_blank">木島研究室</a>にて、ピアニストの演奏を仮想空間でリアルタイムに高精度で再現するためのモーションキャプチャシステムを開発した。
+				このシステムでは、ハンドモーションキャプチャカメラ(Meta Quest2)を使用してリアルタイムでハンドモデルを生成する。
 				次に、ピアノの演奏データを仮想世界に反映するためにMIDIを使用し、それと同時に打鍵した指の特定を行う。
 				その特定した指先が鍵盤に触れるように先ほどのハンドモデルを調整することで、ピアニストの演奏表現をより伝わるようにした。
 				 </font></p>
 
-				<h4>背景・モチベーション：</h4>
+				<h3>背景・モチベーション：</h3>
 				<p><font size="4"> 
 				メタバースの普及に伴い、Vtuberが楽器を演奏するコンテンツや仮想空間内での生演奏ライブが増加している。このようなライブ、コンサートを鑑賞する際には音・体の動きが注視される一方で、メタバースコンテンツの多くは楽器を演奏している手元まで正しく再現できていないものが多い。
 				
 				これを踏まえて、仮想空間内で簡易かつ精度高くピアノ演奏を再現することによって、ピアニストやVtuberが仮想空間内で楽器を演奏する際の参入障壁を低減することが目的だ
 				</font></p>
 				
-				<h4>アピールポイント：</h4>
+				<h3>アピールポイント：</h3>
 				<p><font size="4"> 
 				1,仮想空間と現実空間の座標のズレを誰でも簡単に修正できるようにした。
 				</font></p>
@@ -126,30 +126,21 @@
 				演奏時、手の動きがカメラから見えなくなると、手の再現精度が著しく低下する。この問題を改善するため、押された鍵盤と指の対応表を作成し2ミリ秒ごとに更新した。この対応表を基に、対応する指が鍵盤に触れるようにハンドモデルの修正を行うことで、精度の向上を図った。
 				</font></p>
 				<img src="images/modify.png" alt="画像の説明" width="700" height="300">
-				
 
+				<h3>システム構成</h3>
+				<img src="images/png1.png" alt="画像の説明" width="700" height="300">
+				<img src="images/hardware.png" alt="画像の説明" width="700" height="350">
+				<img src="images/software.png" alt="画像の説明" width="700" height="350">
 				
-				<h4>開発言語・技術：</h4> <p><font size="4"> 
+				<h3>開発言語・技術：</h3> <p><font size="4"> 
 				</font>Unity, C#, 最小二乗法, Meta Quest 2</p>
-				
-								
-								
-				
-				
-				<p><font size="4">岐阜大学在籍時に、<a href="http://www.kzm.info.gifu-u.ac.jp/" target="_blank">木島研究室</a>にて卒業論文として制作。</font></p>
-				<p><font size="4">ピアニストの演奏をリアルタイムで仮想空間(VRの中の世界)で精度高く再現できるようにした。目的として、メタバースが世の中に普及していることを背景に、仮想空間内でピアノ演奏などの表現を簡易的かつ精度高く再現できるようなシステムがあれば、演奏家がメタバースに参入しやすくなるのではないかと考えた。またVtuberが楽器を演奏するシステムとしての需要もあると考えている。</font></p>
 
-				<h4>キーワード</h4>
+				<h3>キーワード</h3>
 				<ul>
 					<li>ピアノを弾く人の動きをVRで再現する</li>
 					<li>メタバースで音楽を楽しむ人や表現する人のためのシステム</li>
 					<li>Vtuberが楽器を弾くときにも使えるシステム</li>
 				</ul>
-				
-				<h4>システム構成</h4>
-				<img src="images/png1.png" alt="画像の説明" width="700" height="300">
-				<img src="images/hardware.png" alt="画像の説明" width="700" height="350">
-				<img src="images/software.png" alt="画像の説明" width="700" height="350">
 				
 			</div>
 		</div>
