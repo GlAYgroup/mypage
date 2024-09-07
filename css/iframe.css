@@ -3,7 +3,9 @@
     padding-bottom: 56.25%; /* 16:9 アスペクト比 */
     height: 0;
     overflow: hidden;
-    max-width: 100%;
+    width: 100%; /* 横幅をページ全体に広げる */
+    max-width: 100%; /* 幅をページ全体に合わせる */
+    margin: 0 auto; /* 中央揃え */
     background: #000;
 }
 
